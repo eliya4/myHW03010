@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="songs">
+        <item>All Too Well</item>
+        <item>Shape of You</item>
+        <item>Blinding Lights</item>
+        <item>Happier Than Ever</item>
+        <item>Drivers License</item>
+        <item>Levitating</item>
+        <item>Save Your Tears</item>
+        <item>Shivers</item>
+        <item>Montero (Call Me By Your Name)</item>
+        <item>Good 4 U</item>
+        <item>Kiss Me More</item>
+        <item>Stay</item>
+        <item>Peaches</item>
+        <item>Take My Breath</item>
+        <item>Bad Habits</item>
+    </string-array>
+    <string-array name="writers">
+        <item>Taylor Swift</item>
+        <item>Ed Sheeran, Steve Mac, Johnny McDaid</item>
+        <item>The Weeknd, Ahmad Balshe, Jason Quenneville, Max Martin, Oscar Holter</item>
+        <item>Billie Eilish, Finneas </item>
+        <item>Olivia Rodrigo, Daniel Nigro</item>
+        <item>Dua Lipa, Clarence Coffee Jr., Sarah Hudson, Stephen Kozmeniuk</item>
+        <item>The Weeknd, Max Martin, Oscar Holter, Ahmad Balshe</item>
+        <item>Ed Sheeran, Johnny McDaid, Kal Lavelle</item>
+        <item>Montero Hill, Denzel Baptiste, David Biral, Omer Fedi, Roy Lenzo</item>
+        <item>Olivia Rodrigo, Daniel Nigro</item>
+        <item>Doja Cat, Amala Dlamini, Lukasz Gottwald, David Sprecher, Rogét Chahayed</item>
+        <item>The Kid Laroi, Justin Bieber, Charlie Puth, Omer Fedi, Blake Slatkin</item>
+        <item>Justin Bieber, Andrew Watt, Louis Bell, Adam Feeney, Shndō</item>
+        <item>The Weeknd, Max Martin, Oscar Holter, Ahmad Balshe</item>
+        <item>Ed Sheeran, Johnny McDaid, Fred Gibson</item>
+    </string-array>
+
+
+</resources>
