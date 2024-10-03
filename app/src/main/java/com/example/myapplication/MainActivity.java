@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
     String s1[], s2[];
+    int images[]={};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
