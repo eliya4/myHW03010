@@ -34,11 +34,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        s1 =getResources().getStringArray(R.array.songs);
-        s2 =getResources().getStringArray(R.array.writers);
+
+        // Initialize the arrays from resources
+        s1 = getResources().getStringArray(R.array.songs);
+        s2 = getResources().getStringArray(R.array.writers);
+
+        // Find the RecyclerView in the layout
         recyclerView = findViewById(R.id.recyclerview);
+
+        // Set up the adapter
         MyAdapter myAdapter;
-        myAdapter = new MyAdapter(this,s1,s2,images);
+        myAdapter = new MyAdapter(this, s1, s2, images);
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
