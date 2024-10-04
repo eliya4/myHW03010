@@ -31,12 +31,15 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+        holder.myTextView1.setText(date1[position]);
+        holder.MyTextView2.setText(date2[position]);
+        holder.myImageView.setImageResource(images[position]);
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return images.length;
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder{
